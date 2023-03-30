@@ -1,0 +1,45 @@
+estrutura de dados {
+    fifo = fila, primeiro q entra é o primeiro que sai
+    lifo = pilha primeiro q entra é o ultimo que sai
+    lista = tabela
+}
+
+{
+    var, let = variaveis
+    const = constante
+}
+
+js = tipagem fraca(menos rigida)
+
+.isInteger = O método isInteger() em JavaScript é usado para verificar se o valor passado para ele é um número inteiro ou não
+.toFixed = organiza as casas decimais por exemplo
+typeof = qual o tipo do dados
+Math = objeto
+Math.pow = O método Math.pow() retorna o valor de x à potência de y 
+Math.floor = arredonda
+
+// verdadeiro e falso dentro de js
+v e v -> v
+v e f -> f
+f e ? -> f
+
+op1 e op2 e op3 e op4 a expressao so vai ser verdadeira se todos forem verdadeiros basta um falso e a expressao sera falsa
+
+v ou ? -> v
+f ou v -> v
+f ou f -> f
+
+// os dois tem q ser diferentes para ser v 
+v xor v -> f
+v xor f -> v
+f xor v -> v 
+f xor f -> f 
+
+!v -> f 
+!f -> v 
+
+arrow sempre vai apontar(this) para o contexto(modulo) do qual aquela funcao ou objeto etc foi inserid enquanto o (this) de uma funcao normal ira apontar para o escopo global
+
+funcao factory eh uma funcao que retorna um objeto
+
+Math.sqrt(numero q vai sofre a raiz) = raiz
