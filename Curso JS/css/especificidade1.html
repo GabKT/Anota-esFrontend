@@ -6,6 +6,33 @@
     <title>Especificidade CSS</title>
     <style>
         /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+
+        /* 
+        setor de prioridade
+
+        id>class>tag semanticas
+
+        1. !important
+        2. seletores mais especificos
+        3. empate -> o que for processado por ultimo tem prioridade
+        */
+
+        p{
+            background-color: #aaa;
+        }
+
+        .observacao {
+            background-color: #00ff51;
+            border: dashed 5px;
+            padding: 200px!important;
+            font-size: 40px;
+        }
+        /* mais especifico = mais prioridade */
+        p.observacao{
+            padding: 5px 60px;
+            background: linear-gradient(to right, red, yellow);
+        }
+        
     </style>
 </head>
 
