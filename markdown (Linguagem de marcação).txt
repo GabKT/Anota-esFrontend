@@ -1,0 +1,36 @@
+markdown (Linguagem de marcação)
+
+**negrito** or__ __
+*italico* _ _
+~~risco~~
+#titulo 1
+##titulo2
+***(linha) or ---
+
+Lista numerada:
+1. item1
+1. item2
+1. item3
+
+lista demarcada:
+
+-item1
+-item2
+-item3
+
+checkbox apenas visual:
+
+-[]Tarefa1
+-[x]Tarefa2
+
+link:
+
+[Comentario](url)
+
+tabela:
+num|aluno|nota
+---|---|---
+1|Gustavo|8,5
+
+colocar sintaxes de comandos em `comando`
+codigos inteiros entre ```codigo```
