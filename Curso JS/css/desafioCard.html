@@ -7,58 +7,45 @@
     <style>
         
         .curso{
-            position: relative;
-            display: block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            float: left;
             box-sizing: border-box;
             width: 265px;
             height: 300px;
             box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
             padding: 5px;
+            margin: 5px 20px;
+            font-weight: 100;
         }
         .curso img{
             width: 250px;
         }
+        .curso-preco{
+            float: right;
+        }
         .preco-de{
-            position: absolute;
             color: darkred;
             text-decoration: line-through;
             font-weight: 600;
-            bottom: 5px;
-            left: 105px;
         }
         .preco-por{
-            position: absolute;
             color: green;
             font-weight: bold;
-            font-size: 25px;
-            right: 10px;
-            bottom: 5px;
-        }
-        .curso-info{
-            height: 120px;
+            font-size: 20px;
         }
         .curso-info h4{
-            margin-top: 0px;
+            margin: 0px;
             padding: 2px;
-            font-size: 25px;
+            font-size: 21px;
             height: 80px;
+            overflow: hidden;
+            font-weight: 500;
         }
         .curso-info p{
-            position: absolute;
-            box-sizing: border-box;
             margin-top: 0px;
-            height: 40px;
-            bottom: 1px;
-            font-weight: 600;
+            font-weight: 100;
         }
-        h2 + div{
-            position: relative;
-        }
-        .curso+.curso{
-            position: absolute;
-            left: 300px;
-            bottom: 1px;
-        }
+
     </style>
 </head>
 
