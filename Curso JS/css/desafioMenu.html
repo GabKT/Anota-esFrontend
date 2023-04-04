@@ -7,7 +7,74 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* ... */
+        body{
+            background-color: gray;
+            margin: 0px;
+            font-family: Oswald;
+        }
+        .menu-toggle{
+            display: none;
+        }
+        header{
+            position: relative;
+            display: block;
+            background-color: black;
+            margin: 0px;
+            width: 100%;
+            border-bottom:solid rgb(0, 132, 255) 2px;
+            padding: 20px;
+        }
+
+        .botao, destaque{
+            background-color: red;
+            padding: 10px 25px;
+            border-radius: 40px;
+        }
+        aside{
+            position: absolute;
+            left: 1250px;
+            top: 40px;
+            font-size: 25px;
+            padding: 15px;
+        }
+        .menu{
+            position: absolute;
+            left: 550px;
+            top: 30px;
+            font-size: 25px;
+        }
+        li{
+            display: inline-block;
+            list-style: none;
+
+            margin-right: 10px;
+        }
+        a{
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            border-left:solid 5px rgb(0, 132, 255);
+        }
+        @media (max-width:1500px){
+            .menu{
+                display: none;
+            }
+            aside{
+                display: none;
+            }
+            .menu-toggle{
+                display: block;
+                padding: 20px;
+                background-color: gray;
+                color: white;
+                float: right;
+                margin-right: 50px;
+                position: relative;
+                top: -90px;
+            }
+        }
     </style>
 </head>
 
