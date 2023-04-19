@@ -6,16 +6,23 @@
     <title>Flexbox #03</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        .flex-container div:nth-child(4){
+            /* grow shrink basis */
+            flex: 3 6 100px;
+            /*
+            basis = 100px
+            de acordo com o eixo column ou row
+            */
+        }
     </style>
 </head>
 
 <body>
-    <div class="flex-container tag nolabel">
-        <div class="tag nolabel">1</div>
-        <div class="tag nolabel">2</div>
-        <div class="tag nolabel">3</div>
-        <div class="tag nolabel">4</div>
+    <div class="flex-container">
+        <div class="">1</div>
+        <div class="">2</div>
+        <div class="">3</div>
+        <div class="">4</div>
     </div>
     <script src="js/tag.js"></script>
 </body>
